@@ -1,0 +1,51 @@
+.head_user{
+
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+
+}
+.center{
+
+    text-align: center;
+}
+.inline_user {
+display: inline-flex;
+
+}
+.icons_user{
+
+    text-align: center;
+    margin: 30px;
+
+}
+
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #084300;
+  }
+
+  /*    type selectors      */
+
+  body{
+    background-color: rgb(74, 74, 66);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #986500;
+  }
