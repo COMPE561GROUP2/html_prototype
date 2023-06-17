@@ -28,6 +28,16 @@ display: inline-flex;
     background-color: #084300;
   }
 
+.loginTextHeader {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#084300;
+}
+
+.loginSection {
+  text-align: center;
+}
+
   /*    type selectors      */
 
   body{
