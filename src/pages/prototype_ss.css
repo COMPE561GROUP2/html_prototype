@@ -21,11 +21,11 @@ display: inline-flex;
 }
 
 .navBar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #084300;
+    background-color: rgb(163, 207, 187);
+  }
+
+.navBar_Text {
+    color: green;
   }
 
 .loginTextHeader {
@@ -41,7 +41,7 @@ display: inline-flex;
   /*    type selectors      */
 
   body{
-    background-color: rgb(230, 230, 180);
+    background-color: rgb(171, 32, 176);
   }
   
   li {
@@ -57,5 +57,7 @@ display: inline-flex;
   }
   
   li a:hover {
-    background-color: #986500;
+    background-color: #b13636;
   }
+
+  body {background-color: rgba(119, 7, 7, 0.326);}
