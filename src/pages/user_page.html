@@ -1,70 +1,102 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
+        <title>Touch Grass - Login</title>  
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="prototype_ss.css">
+        <style>
+            /* Modify the background color */
+            
+            .navbar-custom {
+                background-color: rgb(163, 207, 187);
+            }
+        /* Modify brand and text color */
+
+            .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link,
+        .navbar-custom .navbar-nav,
+            .navbar-custom .navbar-text {
+                color: green;
+            }
+        </style>
+        <title>User Page</title>
+    </head>
     
-    <title>Touch Grass - Login</title>  
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> 
-    
-    <link rel="stylesheet" href="prototype_ss.css">
-    <title>User Page</title>
-</head>
-<body>
-
-
-
-        <ul class="navBar">
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#news">Blog</a></li>
-            <li><a href="#contact">Friends</a></li>
-            <li style="float:right"><a href="#about">Help</a></li>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <img src="/src/assets/OutdoorLogo.png" alt="Bootstrap" width="45" height="40">
+            <a class="navbar-brand" href="#">TouchGrass</a>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Activities">Activities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                </li>
+                </ul>
             </div>
-          </ul>
-    
-
-
-<h1  class="head_user">User Page</h1>
-
-<p id="demo"></p>
-
-<script>
-    </script>
-
-    
-<div class ="icons_user">
-
-
-    <img class ="icons_user" src="../assets/hike_logo.jpg" alt="Flowers in Chania" width="250" height="250">
-
-
-    <img class ="icons_user" src="../assets/surf_logo.jpg" alt="Flowers in Chania" width="250" height="250">    
-
-</div>
-<p></p>
-    <div class= "inline_user">
-
-    
-    <form> 
-
-
-        <label for="post_head"> Post Header: </label>
-        <input type="text" name="head" id="head">
+                <ul>
+                <button type="button" class="btn btn-success">Log In</button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                </ul>
+            </div>
+        </nav>
         
-        <br> 
+    <h1  class="head_user">User Page</h1>
 
-        <textarea name="message" rows="20" cols="60"> What would you like to say? </textarea>
+    <p id="demo"></p>
 
-        <br> <br>
+    <script>
+        </script>
 
-    </form>
+        
+    <div class ="icons_user">
 
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429296.0065733395!2d-116.87039736647274!3d32.795572164421465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbec2a1af657a5%3A0x65f0819e736d55d8!2sCleveland%20National%20Forest!5e0!3m2!1sen!2sus!4v1685648283501!5m2!1sen!2sus" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <img class ="icons_user" src="../assets/hike_logo.jpg" alt="Flowers in Chania" width="250" height="250">
+
+
+        <img class ="icons_user" src="../assets/surf_logo.jpg" alt="Flowers in Chania" width="250" height="250">    
 
     </div>
+    <p></p>
+        <div class= "inline_user">
 
-</body>
+        
+        <form> 
+
+
+            <label for="post_head"> Post Header: </label>
+            <input type="text" name="head" id="head">
+            
+            <br> 
+
+            <textarea name="message" rows="20" cols="60"> What would you like to say? </textarea>
+
+            <br> <br>
+
+        </form>
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429296.0065733395!2d-116.87039736647274!3d32.795572164421465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbec2a1af657a5%3A0x65f0819e736d55d8!2sCleveland%20National%20Forest!5e0!3m2!1sen!2sus!4v1685648283501!5m2!1sen!2sus" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
 </html>
 
 
