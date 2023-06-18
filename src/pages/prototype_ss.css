@@ -1,13 +1,13 @@
 .head_user{
 
-    text-align: center;
-    margin: 30px;
-    font-size: 50px;
+  text-align: center;
+  margin: 30px;
+  font-size: 50px;
 
 }
 .center{
 
-    text-align: center;
+  text-align: center;
 }
 .inline_user {
 display: inline-flex;
@@ -15,49 +15,49 @@ display: inline-flex;
 }
 .icons_user{
 
-    text-align: center;
-    margin: 30px;
+  text-align: center;
+  margin: 30px;
 
 }
 
 .navBar {
-    background-color: rgb(163, 207, 187);
-  }
+  background-color: rgb(163, 207, 187);
+}
 
 .navBar_Text {
-    color: green;
-  }
+  color: green;
+}
 
 .loginTextHeader {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#084300;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#084300;
 }
 
 .loginSection {
-  text-align: center;
+text-align: center;
 }
 
-  /*    type selectors      */
+/*    type selectors      */
 
-  body{
-    background-color: rgb(171, 32, 176);
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #b13636;
-  }
+body{
+  background-color: rgb(230, 230, 180);
+}
 
-  body {background-color: rgba(119, 7, 7, 0.326);}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #b13636;
+}
+
+body {background-color: rgba(255, 244, 244, 0.326);}
